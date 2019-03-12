@@ -13,6 +13,7 @@ BuildRequires:  python2-devel
 BuildRequires:  python3-devel
 BuildRequires:  python-setuptools
 BuildRequires:  python2-setuptools
+BuildArch:	noarch
 
 %description
 A docutils-compatibility bridge to CommonMark.
