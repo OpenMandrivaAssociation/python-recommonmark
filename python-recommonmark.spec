@@ -1,11 +1,11 @@
 %define oname   recommonmark
 
 Name:           python-%{oname}
-Version:        0.5.0
-Release:        1
+Version:	0.6.0
+Release:	1
 Summary:        Docutils compatibility bridge to CommonMark
 
-Source0:        https://files.pythonhosted.org/packages/55/31/de2645f12d251c5d3809e95c9463da1fda77f0656e06215c11c5b46e43fe/recommonmark-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/f5/71/046160d730f664662d65b3f8b399b519ad378ffa4369ff3b6060cf1318d7/recommonmark-0.6.0.tar.gz
 License:        Python
 Group:          Development/Python
 Url:            https://recommonmark.readthedocs.io/en/latest/
