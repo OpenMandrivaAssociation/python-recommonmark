@@ -2,7 +2,7 @@
 
 Name:           python-%{oname}
 Version:	0.7.1
-Release:	1
+Release:	2
 Summary:        Docutils compatibility bridge to CommonMark
 # https://pypi.org/project/recommonmark/
 Source0:	https://files.pythonhosted.org/packages/1c/00/3dd2bdc4184b0ce754b5b446325abf45c2e0a347e022292ddc44670f628c/%{oname}-%{version}.tar.gz
