@@ -9,23 +9,14 @@ Source0:	https://files.pythonhosted.org/packages/1c/00/3dd2bdc4184b0ce754b5b4463
 License:        Python
 Group:          Development/Python
 Url:            https://recommonmark.readthedocs.io/en/latest/
-BuildRequires:  pkgconfig(python)
-BuildRequires:  python-setuptools
+BuildSystem:	python
+BuildRequires:  python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description
 A docutils-compatibility bridge to CommonMark.
 
 This allows you to write CommonMark inside of Docutils & Sphinx projects.
-
-%prep
-%autosetup -n %{oname}-%{version}
-
-%build
-%py3_build
-
-%install
-%py3_install
 
 %files
 %dir %{py_puresitedir}/%{oname}
